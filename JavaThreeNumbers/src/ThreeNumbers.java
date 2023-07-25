@@ -7,6 +7,9 @@ public class ThreeNumbers {
 		return n1+n2+n3;
 	}
 		
+	public static double avgerage(int n1,int n2,int n3) {
+		return (n1+n2+n3)/3;
+	}
 	
 
 	public static void main(String[] args) {
@@ -25,6 +28,8 @@ public class ThreeNumbers {
 
 		
 		System.out.println(sum(n1,n2,n3));
+		
+		System.out.println(avgerage(n1, n2, n3));
 	}
 
 }
